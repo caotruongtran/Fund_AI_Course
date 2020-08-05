@@ -1,0 +1,398 @@
+<html><head><title>CS683: Artificial Intelligence -- Lectures</title></head><body bgcolor="#ffffff">
+
+<table bgcolor="#b9d3ee" border="0" cellpadding="0" cellspacing="3" width="100%">
+  <tbody><tr>
+  <td width="30%"> <font size="+1"><b>University of Massachusetts</b></font>
+  </td><td rowspan="2" align="center"> <font size="+4"><b>Artificial Intelligence</b>
+     </font>
+  </td><td align="right" width="30%"> <font size="+1"><b>Computer Science Department</b>
+     </font>
+  </td></tr>
+  <tr>
+  <td> <font size="+1"><b>CMPSCI 683</b></font>
+  </td><td align="right"> <font size="+1"><b>Fall 2004</b></font>
+  </td></tr>
+</tbody></table>
+
+<p>
+</p><center><font size="+2"><b>Schedule of Lectures</b></font>
+<br> The slides from two years ago are also 
+<a href="http://dis.cs.umass.edu/classes/cs683/683-2004/683-2002/lectures.html">available here</a>
+</center>
+
+<p>
+<table border="0" cellpadding="4" cellspacing="4" width="100%">
+
+<tbody><tr><td colspan="2" align="center" bgcolor="#cca1e6" width="100%">
+<b>INTRODUCTION</b>
+
+</td></tr><tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture01.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 1: Introduction [Thurs 9/09]</b> 
+  <br>Course information. What is Artificial Intelligence? A brief
+  history of AI, its goals and achievements. Computer systems as intelligent
+  agents.  Types of environments, agents, and performance measures. Reflex
+  agents, agents that keep track of the world, goal-based agents, and
+  utility-based agents. 
+  <br>Reading: AIMA Chptrs 1&amp;2.</td></tr>
+
+<tr><td colspan="2" align="center" bgcolor="#cca1e6" width="100%">
+<b>PROBLEM SOLVING USING SEARCH</b>
+
+</td></tr><tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture02.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 2: Overview of Issues in Heuristic Search [Tues 9/14]</b> 
+  <br>Key concepts in heuristic search, state search paradigm and its
+  complexities, local control/non-local control, satisficing and
+  bounded-rationality, data, solution and control uncertainty, multi-level
+  search, meta-level control, open vs. closed world assumption, resource
+  bounds. 
+  <br>Reading: Russel and Norvig, Chapter 3.
+</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture03.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 3: Heuristic search [Thurs 9/16]</b>
+  <br>Algorithms for guiding search using heuristic information. The nature
+  and origin of heuristics. Best-first search, A* and IDA*. Admissible
+  evaluation functions. The effect of heuristic error. K-Best-First Search.
+  <br>Reading: Sections 4.1-4.4.</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture04.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 4 (guest lecturer Jiaying Shen): Time and space variations of A* [Tues 9/21]</b>
+  <br>
+					IDA*, RBFS, SMA*, Memory-bounded heuristic search, RTA*<br>
+					Reading : Richard E. Korf, <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/papers/Korf_AI90.pdf">Real-Time Heuristic Search</a>, Artificial Intellligence 42 (1990), pp 189-211.<br>
+				
+					
+					
+				
+					
+				</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture05.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 5: Search complexity and applications [Thurs 9/23]</b>
+  <br>
+					Anytime A*, Hierarchical A*, Other Examples of Hierarchical Problem Solving<br>
+					Readings: Eric A. Hansen, Shlomo Zilberstein, Victor A. Danilchenko, <a href="http://mas.cs.umass.edu/%7ejyshen/readings/hansen97anytime.pdf">Anytime Heuristic Search: First Results</a>, CS Technical Report, 97-50, UMASS<br>
+					Hierarchical A*: R.C. Holte, M.B. Perez, R.M.Zimmer, A.J. Macdonald, <a href="http://mas.cs.umass.edu/%7ejyshen/readings/tr-95-18.ps">Hierarchical A*: Searching Abstraction Hierarchies Efficiently</a>, {AAAI}/{IAAI}, Vol. 1, pp 530-535, 1996<br>
+					Other Examples of Hierarchical Problem Solving: Craig A. Knoblock, <a href="http://www.isi.edu/info-agents/papers/knoblock90-hanoi.pdf">Abstracting the Tower of Hanoi</a>,  In  Proceedings of the Workshop on Automatic Generation of Approximations and Abstractions, pages 13--23, Boston, MA, 1990<br>
+				
+					</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture06.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 6: Local Search [Tues 9/28]</b><br>
+					<p>Beam search, Hill Climbing, Genetic Algorithms, Simulated Annealing, Iterated Improvement.<br>
+					</p>
+					<p>Stochastic Search.</p>
+				
+					
+				
+				
+				
+				
+					
+				
+				
+					</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture07.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 7: CSPs: Heuristics for CSPs [Thurs 9/30]</b><br>
+Heuristic Repair for CSPs, Texture Measures, Solving CSPs using
+Systematic Search, Relationship of Problem structure to complexity.<br>
+					Reading: Section 4.4-4.5; Bart Selman, Hector Levesque and David
+  Mitchell <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/papers/selman92new.ps">A
+  New Method for Solving Hard Satisfiability Problems.</a>. Proceedings AAAI-92; Steven Minton, Andy Philips, Mark D. Johnston and Philip Laird. <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/papers/minton93minimizing.ps">Minimizing Conflicts: A Heuristic 
+  Repair Method for Constraint-Satisfaction and Scheduling Problems</a>. 
+  Journal of Artificial Intelligence Research 1 (1993) 1-15.
+<!--
+  <br>Richard E. Korf. Depth-limited search for real-time
+  problem solving, The Journal of Real-Time Systems, Vol. 2, No. 1, May
+  1990, pp. 7-24.  (Hardcopy will be distributed on class) 
+-->
+					
+				
+					
+				
+				
+					</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture08.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 8: CSPs, Interaction of Subproblems, Multi-Level Search [Tues 10/05]</b>
+  <br>Bactracking, K-consistency. Problem instance hardness, Necceisity of multi-level search, begin blackboard system discussion..<br>
+				
+					
+</td></tr>
+
+<tr><td colspan="2" align="center" bgcolor="#cca1e6" width="100%">
+<b>REASONING UNDER UNCERTAINTY</b>
+
+</td></tr><tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture09.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  
+  </td><td><b>Lecture 9: Blackboard Systems as an Architecture for Interpretation [Thurs 10/07]</b>
+
+  <br>Basic concepts of blackboard systems, separating control and domain
+  problem solving, knowledge sources, multi-level search space.
+
+  <br>Reading: Erman, L.D., Hayes-Roth, F., Lesser, V.R., and Reddy, D.R.
+  (1980). <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/papers/erman80hearsay.pdf">The HEARSAY-II Speech 
+  Understanding System: Integrating Knowledge
+  to Resolve Uncertainty</a>. Computing Surveys 12, (2), 213-253, 1980.
+
+  <br>Additional (optional) reading: Carver, N. and Lesser, V.
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/papers/carver92evolution.ps">The Evolution of Blackboard Control 
+  Architectures.</a> Computer Science Technical Report 92-71, University of 
+  Massachusetts, Amherst. (This is a revised and extended version of paper 
+  with same title in Expert Systems with Applications:
+  Special Issue on the Blackboard Paradigm and Its Applications.)
+</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture10.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 10: Uncertainty [Tues 10/12]</b><br>
+					<p>Sources of uncertainty, representing uncertainty, Bayesian reasoning. Bayes' Rule and its uncertainty. Reading: Chapter 13.</p>
+				</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture11.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td>
+					<div align="left">
+						<b>Lecture 11: Probabilistic reasoning with belief networks[Thurs 10/14]</b><br>
+						More uses of Bayes' rule. Introduction to graphical models, specifically (Bayes') belief networks, d-seperation, noisy-OR<br>
+						Reading: Chapter 14.</div>
+				</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture12.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 12: Probabilistic reasoning with belief networks 2 [Tues 10/19]</b>
+  <br>
+Network construction, Inference in BNs automated belief propagation in
+polytrees, exact inference in tree-structured networks, inference in
+multiply connected BNs.<!--
+  , (optional) 
+  <A HREF="papers/unavailable.pdf"> Expert
+  Systems and Probabilistic Network Models, Chapter 8,</a> Castillo, Gutierrez
+  and Hadi, Springer-Verlag, 1997.
+-->
+ </td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture13.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 13: Approximate inference for BNs Alternative Aproaches to uncertainty.[Thurs 10/21]</b>
+  <br>Inference
+in multiply connected belief networks. Clustering methods, cutset
+conditioning, and stochastic simulation. Alternative approaches to
+uncertain reasoning. <br>Reading: Sections 14.4-14.7.</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture14.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 14: Decision Theory [Tues 10/26]</b>
+  <br>
+Making optimal decisions by maximizing utility. The axioms of decision
+theory. Utility scales and utility assessment. . Reading: Chapter 16</td>
+</tr>
+
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture15.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 15: Value of Information, Intro to MDPs  [Thurs 10/28]</b><br>
+					The value of information. Intr to Markov Decision Processes  <br>Reading: Sections 16.6, 17.1-17.4  <br>Reading: Ross Schachter.  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/papers/shachter86evaluating.pdf">
+  Evaluating Influence Diagrams.</a> Operations Research, 34:871-882, 1986.
+</td></tr>
+
+<tr><td colspan="2" align="center" bgcolor="#cca1e6" width="100%">
+<b>MIDTERM  [Tues 11/02]</b>
+
+</td></tr><tr>
+  <td colspan="2" align="center" valign="CENTER">
+
+  &lt;
+  
+  <table border="0" width="100%"><tbody><tr>
+
+  <td align="center" width="25%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/exams/midterm_1996.pdf.old"><img src="lectures%202004_files/pdficon.gif"></a>
+  <br>midterm 1996
+
+  </td><td align="center" width="25%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/exams/midterm_1998.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  <br>midterm 1998
+
+  </td><td align="center" width="25%">
+  <table width="50%">
+  <tbody><tr>
+  <td align="center">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/exams/midterm_2000.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td align="center">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/exams/midterm_soln_2000.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td></tr>
+  <tr>
+  <td align="center">midterm 2000
+  </td><td align="center">solutions 2000
+  </td></tr></tbody></table>
+  </td></tr><tr>
+  <td align="center" width="25%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/exams/midterm_2002.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  <br>midterm 2002
+  </td></tr></tbody></table>
+
+</td></tr>
+
+<tr><td colspan="2" align="center" bgcolor="#cca1e6" width="100%">
+<b>LEARNING</b>
+
+
+</td></tr><tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture16.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 16: Decision Networks [Thurs 11/04]</b>
+  <br>Decision tree methods. The semantics of decision networks. Evaluating
+  decision networks.
+  Reading: Section 18.3
+</td></tr>
+
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture17.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 17: Learning from observations [11/09]</b>
+  <br>How to get intelligent systems to learn from their experience. Inducing
+  rules from data. Learning decision trees. Learning general logical 
+  descriptions.
+  <br>Reading: Sections 18.1,2,4,5.
+</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="3%">
+  </td><td><b>No Class Veteran Day [Thurs 11/11]</b>
+</td></tr>
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture18.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 18: [Tues 11/16]</b>
+  <br>Decision tree issues.  Current-best-hypothesis search. Version Space. 
+  Neural network introduction.
+</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture19.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 19: Neural networks [Thurs 11/18]</b>
+  <br>Network structure, perceptrons, Hopefield networks, associative memory,
+  multi-layer feed-forward networks, applications.
+  <br>Reading: Sections 19.1-19.5, 20.8.
+</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture20.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 20: Markov decision processes and Reinforcement learning [Mon 11/22 (NOTE Special Day! Monday is a Thursday schedule.)]</b>
+  <br>Formulating planning problems using Markov decision processes. Generating
+  optimal action selection policies using value iteration and policy iteration.
+  Solving Markov decision problems using heuristic search, temporal difference
+  learning.
+  <br>Reading: Sections 17.1-17.3, Hansen and Zilberstein.
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/papers/hansen99heuristic.ps">A Heuristic Search Algorithm for 
+  Markov Decision Problems</a>.
+  Bar-Ilan Symposium on the Foundation of Artificial Intelligence, 1999.
+</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture21.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 21: Reinforcement Learning [Tues 11/23]</b>
+  <br> Exploration versus exploitation, Q-Learning, degrees of abstraction,
+  <br>Reading: Sections 20.1-20.6.
+</td></tr>
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="3%">
+  </td><td><b>No Class Thankgiving Holiday [Thurs 11/25]</b>
+</td></tr>
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture22.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 22: Analytical Learning and Planning [Tues 11/30]</b>
+  <br>Analytical learning (explanation-based learning), an overview of
+  planning
+</td></tr>
+
+<tr><td colspan="2" align="center" bgcolor="#cca1e6" width="100%">
+<b>INTELLIGENT SYSTEMS</b>
+</td></tr><tr>
+ <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+ <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture23.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+</td><td><b> Lecture 23: Data Mining [Thurs 12/02]</b>
+</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture24.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 24: Resource-bounded reasoning systems [Tues 12/07]</b>
+  <br>The problem of real-time decision making. Approaches to reasoning with
+  limited computational resources: composition of anytime algorithms, 
+  design-to-time, progressive reasoning. Run-time monitoring. Applications.
+</td></tr>
+
+<tr>
+  <td align="center" bgcolor="#bbbbff" valign="CENTER" width="8%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures/lecture25.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  </td><td><b>Lecture 25: Summary [Thurs 12/09]</b>
+  <br>Course review and summary. The multiple goals of AI. Current research directions.
+</td></tr>
+
+<tr><td colspan="2" align="center" bgcolor="#cca1e6" width="100%">
+<b>FINAL EXAM [When:12/17 8am, Where: Goessman 51 ]</b>
+
+</td></tr><tr>
+  <td colspan="2" align="center" valign="CENTER">
+
+  <table border="0" width="100%"><tbody><tr>
+  <td align="center" width="50%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/exams/final_1998.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  <br>final 1998
+
+  </td><td align="center" width="50%">
+  <a href="http://dis.cs.umass.edu/classes/cs683/683-2004/exams/final_2000.pdf"><img src="lectures%202004_files/pdficon.gif"></a>
+  <br>final 2000
+
+  </td></tr></tbody></table>
+
+</td></tr>
+
+
+
+
+</tbody></table>
+
+
+</p><p></p><hr>
+<center>
+[<a href="http://dis.cs.umass.edu/classes/cs683/683-2004/index.html">Home</a>]
+[<a href="http://dis.cs.umass.edu/classes/cs683/683-2004/lectures.html">Lectures</a>]
+[<a href="http://dis.cs.umass.edu/classes/cs683/683-2004/homeworks.html">Homeworks</a>]
+[<a href="http://dis.cs.umass.edu/classes/cs683/683-2004/messages.html">Messages</a>]
+[<a href="http://dis.cs.umass.edu/classes/cs683/683-2004/pointers.html">Pointers</a>]
+</center>
+
+</body></html>
